@@ -2,7 +2,7 @@
 
 ## Questionnair Train and Val
 
-#### 训练:  train.py
+### 1. train:  train.py
 
 `python3 train.py --questionnair` ml.csv (data csv) ` --label` label (label column)
 
@@ -10,7 +10,7 @@
 
 
 
-#### 训练 + 保存: trainAndSave.py
+### 2. train + save: trainAndSave.py
 
 `python3 trainAndSave.py --questionnair` ml.csv (data csv) ` --label` label (label column)
 
@@ -18,14 +18,14 @@
 
 
 
-#### 预测:  val.py
+### 3. predict:  val.py
 
 `python3 val.py --questionnair` ml.csv (data csv) ` --label` label (label column)
 
 
 
-#### 打印数据
+### output msg
 
-会依次打印 xgboost, knn, gaussian, logistic regression, random forest, Svm, 组合voting 等七种模型数据
+will print `xgboost`, `knn`, `gaussian`, `logistic regression`, `random forest`, `Svm`, `voting for the previous 6 models`  sequentially
 
 <img src="./pic/data.png" alt="Screen Shot 2020-06-17 at 5.46.35 PM" width="380" height="200" />
