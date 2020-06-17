@@ -26,6 +26,6 @@
 
 ### output msg
 
-will print `xgboost`, `knn`, `gaussian`, `logistic regression`, `random forest`, `Svm`, `voting for the previous 6 models`  sequentially
+will print `xgboost`, `knn`, `gaussian`, `logistic regression`, `random forest`, `Svm`, `voting`  sequentially
 
 <img src="./pic/data.png" alt="Screen Shot 2020-06-17 at 5.46.35 PM" width="380" height="200" />
